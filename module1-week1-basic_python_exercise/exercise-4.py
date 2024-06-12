@@ -1,5 +1,4 @@
 import math
-# Because the condition set input is correct data, so I don't need check type of data.
 def factorial(number):
     if number == 0: return 1
     result = 1
