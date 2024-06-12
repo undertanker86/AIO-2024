@@ -6,7 +6,7 @@ def read_file(file_path):
 
     data = a_file.read()
 
-    a_file.close()
+    a_file.close() 
 
     return data
 
@@ -28,8 +28,6 @@ def word_count(data):
 
 if __name__ == '__main__':
     file_path = 'D:/AIO-2024-WORK/AIO-2024/module1-week1-data_structure_exercise/assets/P1_data.txt'
-
-    # print(word_count(data = read_file(file_path)))
     data = read_file(file_path)
     dic_word = word_count(data)
     print(dic_word['man'])
