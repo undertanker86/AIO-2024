@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import math as Math
+
 # Initialize the dataset
 data = pd.DataFrame({
     'X': [23, 24, 26, 27],
