@@ -94,7 +94,6 @@ print(f"Left Output: {left_output}")
 print(f"Right Output: {right_output}")
 
 # Step 6: Make the final prediction for X=25 (which falls into the right node based on the split)
-# LogPrediction formula
 
 
 def log_prediction(prev_prob, lr, output):
