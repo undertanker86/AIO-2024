@@ -23,6 +23,8 @@ def evaluate_clasification(tp, fp, fn):
     print("F1-Score is {0}".format(f1_score))
     
     return True
+
+
     
 if __name__ == "__main__":
     a = evaluate_clasification(tp=2, fp=3, fn=4)
